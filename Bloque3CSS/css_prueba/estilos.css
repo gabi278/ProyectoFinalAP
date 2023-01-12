@@ -12,7 +12,7 @@ h1 {
     color:gold;
 }
 section {
-    float: left
+    float: left;
     width: 30%;
     height: 300px;
     border: 3px solid royalblue;
