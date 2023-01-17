@@ -1,0 +1,28 @@
+#contenedor1{
+    background-color: #88BFB5;
+}
+h3, .text-muted{
+    background-color: #01261F;
+    color:#F2620F;
+}
+
+/* Color Theme Swatches in Hex */
+.ProAgenda:-Identity-and-Website-Design-1-hex { color: #01261F; }
+.ProAgenda:-Identity-and-Website-Design-2-hex { color: #20594F; }
+.ProAgenda:-Identity-and-Website-Design-3-hex { color: #88BFB5; }
+.ProAgenda:-Identity-and-Website-Design-4-hex { color: #F2620F; }
+.ProAgenda:-Identity-and-Website-Design-5-hex { color: #F2541B; }
+
+/* Color Theme Swatches in RGBA */
+.ProAgenda:-Identity-and-Website-Design-1-rgba { color: rgba(0, 38, 31, 1); }
+.ProAgenda:-Identity-and-Website-Design-2-rgba { color: rgba(32, 89, 78, 1); }
+.ProAgenda:-Identity-and-Website-Design-3-rgba { color: rgba(135, 191, 181, 1); }
+.ProAgenda:-Identity-and-Website-Design-4-rgba { color: rgba(242, 98, 14, 1); }
+.ProAgenda:-Identity-and-Website-Design-5-rgba { color: rgba(242, 84, 26, 1); }
+
+/* Color Theme Swatches in HSLA */
+.ProAgenda:-Identity-and-Website-Design-1-hsla { color: hsla(168, 96, 7, 1); }
+.ProAgenda:-Identity-and-Website-Design-2-hsla { color: hsla(168, 47, 23, 1); }
+.ProAgenda:-Identity-and-Website-Design-3-hsla { color: hsla(168, 30, 64, 1); }
+.ProAgenda:-Identity-and-Website-Design-4-hsla { color: hsla(22, 89, 50, 1); }
+.ProAgenda:-Identity-and-Website-Design-5-hsla { color: hsla(16, 89, 52, 1); }
