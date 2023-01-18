@@ -8,18 +8,25 @@
     <title>Rick Wells-CV</title>
 </head>
 <body>
-
-    <div class="p-5 bg-primary text-white text-center">
-        <h1>My First Bootstrap 5 Page</h1>
+    <header id="inicio" class="p-2 pt-4 bg-dark text-white text-center">
+        <h1>Rick Wells</h1>
         <p>Resize this responsive page to see the effect!</p> 
-      </div>
-<nav class="container">
-    <ul class="row list-unstyled text-center">
-        <li class="col-md-4"><a href="#ANCLA1">Sobre mi</a></li>
-        <li class="col-md-4"><a href="#ANCLA2">Experiencia</a></li>
-        <li class="col-md-4"><a href="#ANCLA3">Habilidades</a></li>
-    </ul>
-</nav>
+    </header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <div class="container-fluid justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#ancla1">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ancla2">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ancla3">Habilidades</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 <!--El contenedor será un tag main y dentro tendremos aside como row y tambien section como rows-->
 <!--Aca va ir la foto de rick wells y algunos datos como los que proporciona la pagian-->
 <aside></aside>
@@ -27,10 +34,23 @@
 <main class="container">
     <div class="row">
         <aside class="col-md-3 text-center">
-            <img src="imagenes/randomuser.jpg" alt="foto de perfil" /><br />
-
+            <img src="imagenes/randomuser.jpg"  class="rounded-circle img-thumbnail mt-3 mb-3 shadow-lg" alt="foto de perfil" /><br />
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Mi nombre es <mark>Rick Wells</mark></li>
+                <li class="list-group-item">Naci el 11/06/94</li>
+                <li class="list-group-item">Telefono: (936) 401-3711</li>
+                <li class="list-group-item">Direccion: 2979 Adams St</li>
+                <li class="list-group-item"><strong>E-mail: rick.wells@example.com</strong></li>
+            </ul>
         </aside>
-        <section class="col-md-9 text-center">Sobre mi,experiencia y habilidades</section>
+        <section class="col-md-6 text-center p-3">
+            <h2 id="ancla1" class="pb-2">Sobre mi</h2>
+            <p class="border-top-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel fringilla est ullamcorper eget nulla facilisi. Turpis cursus in hac habitasse platea dictumst quisque sagittis. Ac tortor dignissim convallis aenean et tortor. Facilisis mauris sit amet massa. Penatibus et magnis dis parturient montes nascetur ridiculus mus. Praesent elementum facilisis leo vel fringilla est. Nec feugiat nisl pretium fusce id velit ut. Tempor orci dapibus ultrices in iaculis nunc. Sapien et ligula ullamcorper malesuada proin libero. Nulla facilisi nullam vehicula ipsum a. Ultrices eros in cursus turpis.</p>
+            <h2 id="ancla2" class="pb-2">Experiencia</h2>
+            <p class="border-top">Nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Vestibulum lectus mauris ultrices eros in. At elementum eu facilisis sed odio morbi quis commodo. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Scelerisque eleifend donec pretium vulputate sapien. At erat pellentesque adipiscing commodo elit. Mauris pharetra et ultrices neque ornare aenean euismod. Viverra orci sagittis eu volutpat odio. Et magnis dis parturient montes nascetur ridiculus mus mauris. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Tortor dignissim convallis aenean et. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Cras sed felis eget velit aliquet. Augue neque gravida in fermentum et sollicitudin ac orci. Proin sagittis nisl rhoncus mattis. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Vitae turpis massa sed elementum tempus egestas sed sed risus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Proin libero nunc consequat interdum.</p>
+            <h2 id="ancla3" class="pb-2">Habilidades</h2>
+            <p class="border-top">Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. In arcu cursus euismod quis viverra nibh cras pulvinar. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. In iaculis nunc sed augue lacus viverra vitae. Tortor consequat id porta nibh venenatis cras. Egestas dui id ornare arcu odio. Vel eros donec ac odio tempor. Sagittis nisl rhoncus mattis rhoncus urna neque viverra. Hendrerit gravida rutrum quisque non tellus orci ac. Semper auctor neque vitae tempus. Nisi lacus sed viverra tellus in hac habitasse platea. Dui sapien eget mi proin sed libero enim sed faucibus. Cursus euismod quis viverra nibh cras pulvinar mattis nunc. Quam id leo in vitae. Risus feugiat in ante metus dictum at tempor commodo ullamcorper. Posuere ac ut consequat semper viverra nam libero justo. Et malesuada fames ac turpis egestas sed tempus. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Quam pellentesque nec nam aliquam.</p>
+        </section>
     </div>
 </main>
 
@@ -38,7 +58,11 @@
 
 
 
-<footer class="mt-5 p-4 bg-dark text-white text-center">Este es el footer, aca pueden ir algunos datos de el y un link ancla de "volver hacia arriba o inicio"</footer>
+<footer class="mt-0 p-4 bg-dark text-white text-center">
+    <span><strong>E-mail: rick.wells@example.com</strong></span>
+    <span>Telefono: (936) 401-3711</span>
+    <span><a href="#inicio">Volver al inicio</a></span>
+</footer>
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
